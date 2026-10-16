@@ -1,0 +1,5 @@
+# Generated simulator output; curated evidence is tracked separately.
+/build/
+__pycache__/
+*.pyc
+.DS_Store

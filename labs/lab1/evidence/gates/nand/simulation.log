@@ -1,0 +1,7 @@
+GHDL 5.1.1 (4.1.0.r775.g91725e47f) [Dunoon edition]
+ Compiled with GNAT Version: 14.2.0
+ static elaboration, mcode JIT code generator
+$ ghdl -a --std=93 labs/lab1/src/gates/gate_nand.vhd labs/lab1/tb/gates/tb_gate_nand.vhd
+$ ghdl -e --std=93 tb_gate_nand
+$ ghdl -r --std=93 tb_gate_nand --assert-level=error --vcd=waveform.vcd
+labs/lab1/tb/gates/tb_gate_nand.vhd:36:5:@40ns:(report note): PASS tb_gate_nand: 4 binary cases
